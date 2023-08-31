@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color:chocolate;
+            height: 700px;
+            width: 500px;
+            padding: 20px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        label{
+            width: 150px;
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Register form</h1>
+    <form>
+        <label >Name</label>
+        <input type="text"><br><br>
+        <label >Phone</label>
+        <input type="number"><br><br>
+        <label >Enter email</label>
+        <input type="text"><br><br>
+        <label >Password</label>
+        <input type="password" maxlength="10" pattern="[0-9]/10"><br><br>
+        <label for="">dob</label>
+        <input type="date"><br><br>
+        <label for="">Time</label>
+        <input type="time"required><br><br>
+        <label for="">Address</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+        <label for=>gender</label>
+        <label for="">Male</label>
+        <input type="radio"name="gender">
+        <label for="">Female</label>
+        <input type="radio"name="gender"><br><br>
+        <label for="">Qualification</label>
+        <input type="checkbox">sslc
+        <input type="checkbox">plus2
+        <input type="checkbox">degree<br><br>
+        <label for="">District</label>
+        <select name="" id="">
+            <option value="">Select District</option>
+            <option value="">Kozhikode</option>
+            <option value="">Malapuram</option>
+            <option value="">Kasargod</option>
+            <option value="">Thrissur</option>
+        </select><br><br>
+        <input type="file"><br><br>
+        <input type="button"value="Submit" style="margin-left: 170px;">
+    </form>
+    </div>
+</body>
+</html>
