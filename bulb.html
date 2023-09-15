@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <img id="one" onmouseover="changeImage()" src="https://previews.123rf.com/images/pixelrobot/pixelrobot1504/pixelrobot150400921/38251282-100-watt-light-bulb-off-isolated-on-white-background-.jpg" height="250px" width="250px" alt="bulb_image" >
+    <script>
+        function changeImage(){
+            const id=document.getElementById("one");
+            if(id.src.match("bulb-off")){
+                id.src="https://previews.123rf.com/images/neyro2008/neyro20081210/neyro2008121000053/15912323-realistic-lit-light-bulb-isolated-on-white-vector-illustration.jpg";
+            }else{
+                id.src="https://previews.123rf.com/images/pixelrobot/pixelrobot1504/pixelrobot150400921/38251282-100-watt-light-bulb-off-isolated-on-white-background-.jpg";
+            }
+              
+        }
+    </script>
+</body>
+</html>
